@@ -13,7 +13,7 @@ function SkillsSection(sectionId: SectionId) {
     return(
     <div id={sectionId.id} className="skill-section">
         {listSkills.map(skill => 
-        <div>
+        <div id={skill.iconName}>
             <i className={skill.icon}></i>
             <p>{skill.iconName}</p>
         </div>)}
