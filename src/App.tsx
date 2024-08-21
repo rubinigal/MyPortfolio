@@ -1,7 +1,7 @@
 //import { useState } from 'react'
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
-//import './App.css'
+import SkillsSection from "./components/SkillsSection"
 
 function App() {
   
@@ -10,6 +10,7 @@ function App() {
   return (
     <>
      <Navbar tabs={navList} />
+     <SkillsSection id={navList[0]} />
      <Footer/>
     </>
   )
