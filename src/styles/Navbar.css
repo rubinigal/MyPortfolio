@@ -1,0 +1,26 @@
+.nav-bar {
+    width: 100%;
+    background-color: var(--color-blue);
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+}
+
+.nav-bar li {
+    padding: 20px;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+.nav-bar li:hover {
+    background-color: var(--color-blue2);
+}
+
+.nav-bar a {   
+    text-decoration: none;
+    color: var(--color-white);
+}

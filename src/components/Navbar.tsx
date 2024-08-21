@@ -1,13 +1,15 @@
+import '../styles/Navbar.css'
+
 type NavbarProps = {
-    items?: string[]
+    tabs?: string[]
 }
 
-function Navbar({items=[]}: NavbarProps) {
+function Navbar({tabs=[]}: NavbarProps) {
 
     return(
         <div className="nav-bar">
             <ul>
-                {items.map(item => 
+                {tabs.map(item => 
                 <li key={item}><a href={"#"+item}>{item}</a></li>)}
             </ul>
         </div>
