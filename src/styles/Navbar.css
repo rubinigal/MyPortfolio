@@ -5,9 +5,10 @@
 
 .nav-bar ul {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     gap: 10px;
     list-style: none;
+    padding-right: 30px;
 }
 
 .nav-bar li {

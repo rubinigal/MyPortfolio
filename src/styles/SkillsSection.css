@@ -1,0 +1,20 @@
+.skill-section {
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+    margin: 4rem auto;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.skill-section i {
+    font-size: 8rem;
+}
+
+.skill-section p {
+    color: var(--color-white);
+}
+
+.fa-js {
+    color: yellow;
+}
