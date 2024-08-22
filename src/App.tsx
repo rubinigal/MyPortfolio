@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import SkillsSection from "./components/SkillsSection"
 import WelcomeSection from "./components/WelcomeSection"
+import ProjectsSection from "./components/ProjectsSection"
 
 function App() {
   
@@ -11,8 +12,9 @@ function App() {
   return (
     <>
      <Navbar tabs={navList} />
-      <WelcomeSection id={navList[0]}/>
+     <WelcomeSection id={navList[0]}/>
      <SkillsSection id={navList[1]} />
+     <ProjectsSection id={navList[2]} />
      <Footer/>
     </>
   )
