@@ -2,15 +2,17 @@
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import SkillsSection from "./components/SkillsSection"
+import WelcomeSection from "./components/WelcomeSection"
 
 function App() {
   
-  const navList = ['skills','projects']
+  const navList = ['welcome','skills','projects']
 
   return (
     <>
      <Navbar tabs={navList} />
-     <SkillsSection id={navList[0]} />
+      <WelcomeSection id={navList[0]}/>
+     <SkillsSection id={navList[1]} />
      <Footer/>
     </>
   )
