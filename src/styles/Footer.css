@@ -1,6 +1,7 @@
 footer {
     width: 100%;
-    background-color: var(--color-blue2);
+    background-color: var(--color-orange);
+    color: var(--color-white);
     font-size: medium;
     text-align: center;
     padding: 10px;

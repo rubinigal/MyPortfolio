@@ -1,20 +1,181 @@
 .skill-section {
+    width: 100%;
+    border-top: 5px solid var(--color-orange);
+    border-bottom: 5px solid var(--color-orange);
+}
+
+.skill-section h2 {
+    font-size: 4.5rem;
+    text-align: center;
+    margin: 20px;
+    color: var(--color-white);
+}
+
+.skills-box {
     display: flex;
-    width: 70%;
+    width: 80%;
+    justify-content: center;
     flex-wrap: wrap;
     margin: 4rem auto;
     font-size: 1.6rem;
     text-align: center;
+    gap: 35px;
+    background-color: var(--color-black);
+    user-select: none;
 }
 
-.skill-section i {
+.skills-box i {
     font-size: 8rem;
 }
 
-.skill-section p {
+.skills-box p {
     color: var(--color-white);
 }
 
-#JavaScript i {
-    color: yellow;
+.skill-card {
+    transition: filter 300ms;
 }
+
+#JavaScript {
+    color: #FFD43B;
+}
+
+#JavaScript:hover {
+    filter: drop-shadow(0 0 2em #FFD43B);
+}
+
+#React i {
+    color: #74C0FC;
+    animation: logo-spin infinite 20s linear;
+}
+
+#React:hover {
+    filter: drop-shadow(0 0 2em #74C0FC);
+}
+
+#HTML {
+    color:tomato;
+}
+
+#HTML:hover {
+    filter: drop-shadow(0 0 2em tomato);
+}
+
+#CSS {
+    color:royalblue;
+}
+
+#CSS:hover {
+    filter: drop-shadow(0 0 2em royalblue);
+}
+
+#java {
+    color: var(--color-white);
+}
+
+#java:hover {
+    filter: drop-shadow(0 0 2em var(--color-white));
+}
+
+#python i {
+    background: linear-gradient(140deg, royalblue 50%, #FFD43B 50%);
+    background-clip: inherit;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#python:hover {
+    filter: drop-shadow(-20px -20px 2em royalblue) drop-shadow(20px 20px 2em #FFD43B);
+}
+
+#npm {
+    color: red;
+}
+
+#npm:hover {
+    filter: drop-shadow(0 0 2em red);
+}
+
+#node {
+    color:chartreuse;
+}
+
+#node:hover {
+    filter: drop-shadow(0 0 2em chartreuse);
+}
+
+#C i {
+    color:royalblue;
+    font-weight: bold;
+}
+
+#C:hover {
+    filter: drop-shadow(0 0 2em royalblue);
+}
+
+#PostgreSQL {
+    color:royalblue;
+}
+
+#PostgreSQL:hover {
+    filter: drop-shadow(0 0 2em royalblue);
+}
+
+#MongoDB i {
+    color: forestgreen;
+    rotate: 45deg;
+}
+
+#MongoDB:hover {
+    filter: drop-shadow(0 0 2em forestgreen);
+}
+
+#sass {
+    color:hotpink;
+}
+
+#sass:hover {
+    filter: drop-shadow(0 0 2em hotpink);
+}
+
+#git {
+    color: #ff3333;
+}
+
+#git:hover {
+    filter: drop-shadow(0 0 2em #ff3333);
+}
+
+#GitHub {
+    color: var(--color-white);
+}
+
+#GitHub:hover {
+    filter: drop-shadow(0 0 2em var(--color-white));
+}
+
+#linux i {
+    background-color: var(--color-white);
+    border-radius: 50% 50% 15% 15%;
+}
+
+#linux:hover {
+    filter: drop-shadow(0 0 2em var(--color-white));
+}
+
+#ubuntu {
+    color:chocolate;
+}
+
+#ubuntu:hover {
+    filter: drop-shadow(0 0 2em chocolate);
+}
+
+@keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
