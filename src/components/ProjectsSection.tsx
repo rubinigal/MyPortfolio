@@ -22,7 +22,7 @@ function ProjectsSection(sectionId: {id: string}) {
     <section id={sectionId.id} className="projects-section">
         {projects.map(project => {
             isRightSide = !isRightSide
-            return <Project title={project.title} description={project.description} image={project.image} isRightSide={isRightSide} />
+            return <Project title={project.title} description={project.description} skills={project.skills} image={project.image} isRightSide={isRightSide} />
             })}
     </section>
     );

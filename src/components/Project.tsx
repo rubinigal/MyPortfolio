@@ -1,6 +1,7 @@
 type ProjectProps = {
     title: string,
     description: string,
+    skills: string,
     image?: string,
     isRightSide?: boolean
 }
