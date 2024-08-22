@@ -1,7 +1,7 @@
 .nav-bar {
-    position: absolute;
+    position: fixed;
     width: 100%;
-    background-color: var(--color-blue);
+    background-color: var(--color-orange);
 }
 
 .nav-bar ul {
@@ -22,7 +22,7 @@
 }
 
 .nav-bar li:hover {
-    background-color: var(--color-blue2);
+    background-color: var(--color-orange2);
     color: var(--color-black);
 }
 
