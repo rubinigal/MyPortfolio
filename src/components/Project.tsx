@@ -6,9 +6,9 @@ type ProjectProps = {
     isRightSide?: boolean
 }
 
-function Project({title, description, image="", isRightSide=true}: ProjectProps) {
+function Project({title, description, skills, image="", isRightSide=true}: ProjectProps) {
 
-    const desc = <div className="project-desc"><h3>{title}</h3><p>{description}</p></div>;
+    const desc = <div className="project-desc"><h3>{title}</h3><p>{description}</p><p>{skills}</p></div>;
     const pic = <div className="project-pic"><img src={image} alt={title} /></div>;
     
     return(
