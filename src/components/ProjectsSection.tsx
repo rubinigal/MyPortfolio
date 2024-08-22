@@ -1,9 +1,16 @@
 import Project from "./Project";
 
+type ListProjects = {
+    title: string,
+    description: string,
+    skills: string,
+    image: string
+}
+
 function ProjectsSection(sectionId: {id: string}) {
 
     let isRightSide = false;
-    const projects = [
+    const listProjects: ListProjects[] = [
         { 
             title: "Website: Rikmot Al",
             description: "A website for a company named Rikmot Al",
@@ -16,11 +23,11 @@ function ProjectsSection(sectionId: {id: string}) {
             skills: "C, VMWARE, Ubuntu run by Linux/Unix",
             image: ""
         }
-    ]
+    ];
 
     return(
     <section id={sectionId.id} className="projects-section">
-        {projects.map(project => {
+        {listProjects.map(project => {
             isRightSide = !isRightSide
             return <Project title={project.title} description={project.description} skills={project.skills} image={project.image} isRightSide={isRightSide} />
             })}
