@@ -1,0 +1,40 @@
+.project {
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.project-desc {
+    color: var(--color-white);
+    max-width: 500px;
+}
+
+.project-desc h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 2px;
+    border-bottom: 2px solid var(--color-orange);
+}
+
+.project-desc p {
+    font-size: 1.4rem;
+    padding: 5px;
+}
+
+.project-pic img {
+    max-width: 400px;
+    height: auto;
+}
+
+@media (max-width: 61.25em) {
+    .project {
+        flex-direction: column;
+    }
+
+    .project-desc {
+        order: -1;
+    }
+}

@@ -1,0 +1,9 @@
+.projects-section {
+    background-color: var(--color-black);
+    padding: 50px;
+}
+
+.projects-box {
+    display: flex;
+    flex-direction: column;
+}

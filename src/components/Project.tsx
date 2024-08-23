@@ -1,3 +1,5 @@
+import "../styles/Project.css"
+
 type ProjectProps = {
     title: string,
     description: string,
@@ -8,7 +10,7 @@ type ProjectProps = {
 
 function Project({title, description, skills, image="", isRightSide=true}: ProjectProps) {
 
-    const desc = <div className="project-desc"><h3>{title}</h3><p>{description}</p><p>{skills}</p></div>;
+    const desc = <div className="project-desc"><h3>{title}</h3><p>{description}</p><p><strong>Skills:</strong> {skills}</p></div>;
     const pic = <div className="project-pic"><img src={image} alt={title} /></div>;
     
     return(
