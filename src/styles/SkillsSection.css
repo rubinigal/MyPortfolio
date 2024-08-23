@@ -1,14 +1,14 @@
 .skill-section {
     width: 100%;
-    border-top: 5px solid var(--color-orange);
-    border-bottom: 5px solid var(--color-orange);
+    background-color:silver;
+    padding: 30px;
 }
 
 .skill-section h2 {
     font-size: 4.5rem;
     text-align: center;
-    margin: 20px;
-    color: var(--color-white);
+    padding: 20px;
+    border-bottom: 2px solid var(--color-orange);
 }
 
 .skills-box {
@@ -20,7 +20,6 @@
     font-size: 1.6rem;
     text-align: center;
     gap: 35px;
-    background-color: var(--color-black);
     user-select: none;
 }
 
@@ -29,7 +28,7 @@
 }
 
 .skills-box p {
-    color: var(--color-white);
+    color: black;
 }
 
 .skill-card {
@@ -70,11 +69,11 @@
 }
 
 #java {
-    color: var(--color-white);
+    color: #74C0FC;
 }
 
 #java:hover {
-    filter: drop-shadow(0 0 2em var(--color-white));
+    filter: drop-shadow(0 0 2em #74C0FC);
 }
 
 #python i {
@@ -147,11 +146,11 @@
 }
 
 #GitHub {
-    color: var(--color-white);
+    color: black;
 }
 
 #GitHub:hover {
-    filter: drop-shadow(0 0 2em var(--color-white));
+    filter: drop-shadow(0 0 2em var(--color-black));
 }
 
 #linux i {

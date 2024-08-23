@@ -23,7 +23,7 @@ function SkillsSection(sectionId: {id: string}) {
 
     return(
     <section id={sectionId.id} className="skill-section">
-        <h2>My skills:</h2>
+        <h2>My Skills:</h2>
         <div className="skills-box">
             {listSkills.map(skill => 
             <div id={skill.iconName} className="skill-card">
