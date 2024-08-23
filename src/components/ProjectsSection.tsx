@@ -29,10 +29,12 @@ function ProjectsSection(sectionId: {id: string}) {
     return(
     <section id={sectionId.id} className="projects-section">
         <div className="projects-box">
-        {listProjects.map(project => {
-            isRightSide = !isRightSide
-            return <Project title={project.title} description={project.description} skills={project.skills} image={project.image} isRightSide={isRightSide} />
-            })}
+            <h3 className="projects-header">Featured Projects...</h3>
+            {listProjects.map(project => {
+                isRightSide = !isRightSide
+                return <Project title={project.title} description={project.description} skills={project.skills} image={project.image} isRightSide={isRightSide} />
+                })}
+            <h2 className="projects-footer">and many more projects on my <a href="https://github.com/rubinigal" target="_blank" className="btn"><i className="fab fa-github"></i> GitHub</a></h2>
         </div>
     </section>
     );

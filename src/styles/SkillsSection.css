@@ -1,6 +1,6 @@
 .skill-section {
     width: 100%;
-    background-color:silver;
+    background-color: var(--color-silver);
     padding: 50px;
 }
 
