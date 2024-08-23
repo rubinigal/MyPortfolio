@@ -4,6 +4,7 @@ function SkillsSection(sectionId: {id: string}) {
 
     const listSkills = [
         {icon: "fa-brands fa-node", iconName: "node"},
+        {icon: "type-script", iconName: "TypeScript"},
         {icon: "fa-brands fa-js", iconName: "JavaScript"},
         {icon: "fa-brands fa-react", iconName: "React"},     
         {icon: "fa-brands fa-html5", iconName: "HTML"},

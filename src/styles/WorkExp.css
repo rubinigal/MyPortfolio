@@ -1,0 +1,46 @@
+.jobs-box {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.job {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.job h3 {
+    font-size: 2rem;
+}
+
+.job-info {
+    font-size: 1.6rem;
+}
+
+.job-desc {
+    flex: 0.5;
+}
+
+.job-desc-header {
+    max-width: 200px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    border-bottom: 2px solid var(--color-orange);
+}
+
+.job-desc-desc {
+    font-size: 1.4rem;
+}
+
+@media (max-width: 75em) {
+    .job {
+      flex-direction: column;
+      gap: 20px;
+    }
+}

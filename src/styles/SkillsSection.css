@@ -35,6 +35,26 @@
     transition: filter 300ms;
 }
 
+#TypeScript {
+    position: relative;
+    top: -10px;
+    min-height: 101px;
+    min-width: 73px;
+    background-image: url('../assets/TS-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#TypeScript p {
+    position: relative;
+    bottom: -91px;
+}
+
+#TypeScript:hover {
+    filter: drop-shadow(0 0 2em royalblue);
+}
+
 #JavaScript {
     color: #FFD43B;
 }
