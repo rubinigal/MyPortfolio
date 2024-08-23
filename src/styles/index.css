@@ -1,9 +1,9 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   --color-blue: #00beef;
   --color-blue2: #00a3cc;
   --color-black: #303030;
-  --color-black2: #4a4a4a;
+  --color-black2: #303841;;
   --color-white: #F5F5F5;
   --color-silver: silver;
   --color-orange: hsl(25, 75%, 47%);

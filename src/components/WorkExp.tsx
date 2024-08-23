@@ -31,6 +31,7 @@ function WorkExp(sectionId: {id: string}) {
     return(
     <section id={sectionId.id} className="work-section">
         <div className="jobs-box">
+            <h2>Work Experience</h2>
             {listJobsSorted.map(job => <div className="job">
                 <h3>{job.startTime} - {job.endTime ? job.endTime : "Present"}</h3>
                 <div className="job-info">

@@ -5,8 +5,9 @@
 }
 
 .skill-section h2 {
-    font-size: 4.5rem;
+    font-size: 4rem;
     text-align: center;
+    text-shadow: 2px 2px 1px var(--color-black);
     padding: 20px;
     border-bottom: 2px solid var(--color-orange);
 }
@@ -64,12 +65,12 @@
 }
 
 #React i {
-    color: #74C0FC;
+    color: var(--color-blue);
     animation: logo-spin infinite 20s linear;
 }
 
 #React:hover {
-    filter: drop-shadow(0 0 2em #74C0FC);
+    filter: drop-shadow(0 0 2em var(--color-blue));
 }
 
 #HTML {
@@ -89,11 +90,11 @@
 }
 
 #java {
-    color: #74C0FC;
+    color: var(--color-blue2);
 }
 
 #java:hover {
-    filter: drop-shadow(0 0 2em #74C0FC);
+    filter: drop-shadow(0 0 2em var(--color-blue2));
 }
 
 #python i {

@@ -1,8 +1,9 @@
 footer {
     width: 100%;
-    background-color: var(--color-orange);
+    background-color: var(--color-black2);
     color: var(--color-white);
     font-size: medium;
     text-align: center;
     padding: 10px;
+    border-top: 4px solid var(--color-orange);
 }

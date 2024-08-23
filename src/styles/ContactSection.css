@@ -1,0 +1,26 @@
+.contact-section {
+    background-color: var(--color-black2);
+}
+
+.contact-box {
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-box h1 {
+    font-size: 4rem;
+    color: var(--color-white);
+}
+
+.contact-links a {
+    color: var(--color-white);
+    font-size: 2rem;
+    padding: 20px;
+    margin-top: 40px;
+    text-shadow: 2px 2px 1px var(--color-black);
+}
