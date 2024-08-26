@@ -3,10 +3,10 @@ import "../styles/ContactSection.css"
 
 function ContactSection(sectionId: {id: string}) {
 
-    const [emailText, setEmailText] = useState(" Send an email")
+    const [emailText, setEmailText] = useState(" Send an email");
 
     const emailClicked = () => {
-        setEmailText("rubin.igal.w@gmail.com");
+        setEmailText(" rubin.igal.w@gmail.com");
     }
 
     return(

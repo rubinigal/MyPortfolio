@@ -6,8 +6,8 @@
   --color-black2: #303841;;
   --color-white: #F5F5F5;
   --color-silver: silver;
-  --color-orange: hsl(25, 75%, 47%);
-  --color-orange2: hsl(25, 75%, 40%);
+  --color-orange: #d2691e;
+  --color-orange2: #b35919;
 }
 
 *, *::after, *::before {
