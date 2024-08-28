@@ -39,3 +39,14 @@
 .btn:hover {
     transform: translateY(8px);
 }
+
+/* remove code below after rikmot al site is done */
+
+.project:nth-of-type(1) a {
+    pointer-events: none;
+    cursor: not-allowed !important;
+}
+
+.project:nth-of-type(1) img {
+    filter: blur(4px);
+}

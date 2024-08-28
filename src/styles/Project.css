@@ -13,15 +13,28 @@
 }
 
 .project-desc h3 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 700;
     padding: 2px;
     border-bottom: 2px solid var(--color-orange);
 }
 
 .project-desc p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     padding: 5px;
+}
+
+.project-links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.project-desc a {
+    text-decoration: none;
+    color: var(--color-orange);
+    font-size: 1.6rem;
+    font-weight: bold;
 }
 
 .project-pic img {
