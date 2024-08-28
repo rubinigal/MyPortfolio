@@ -24,19 +24,11 @@ function Navbar({tabs=[]}: NavbarProps) {
 
     return(
         <div className="nav-bar">
-            <div  className="big-nav">
-                <ul>
-                    {tabs.map(item => 
-                    <li key={item}><a href={"#"+item}>{item}</a></li>)}
-                </ul>
-            </div>
-            <div className="small-nav">
-                <button className="small-nav-btn" onClick={handleClick}><i id="toggleIcon" className="fa-solid fa-bars"></i></button>
-                <ul id="toggleContent">
-                    {tabs.map(item => 
-                    <li key={item}><a href={"#"+item}>{item}</a></li>)}
-                </ul>
-            </div>          
+            <ul id="toggleContent">
+                {tabs.map(item => 
+                <li key={item}><a href={"#"+item}>{item}</a></li>)}
+            </ul>
+            <button className="small-nav-btn" onClick={handleClick}><i id="toggleIcon" className="fa-solid fa-bars"></i></button>         
         </div>
     );
 }

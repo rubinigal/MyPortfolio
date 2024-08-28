@@ -14,7 +14,7 @@ function Project({title, description, skills, image="", isRightSide=true, gitLin
 
     let links = <></>;
     if(!siteLink || siteLink === "") {
-        links = <div><a href={gitLink}>Code</a></div>
+        links = <div><a href={gitLink}>To Code</a></div>
     } else {
         links = <div><a href={gitLink}>To Code</a> <a href={siteLink}>To Live Site</a></div>
     }

@@ -18,7 +18,7 @@ function ProjectsSection(sectionId: {id: string}) {
     let isRightSide = false;
     const listProjects: ListProjects[] = [
         { 
-            title: "Website: Rikmot Al",
+            title: "Website: Rikmot Al - Coming Soon",
             description: "A website for a company named Rikmot Al",
             skills: "HTML, CSS, JavaScript, TypeScript, React.js, Vite and npm",
             image: raImage,
