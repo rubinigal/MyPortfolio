@@ -22,11 +22,18 @@ function Navbar({tabs=[]}: NavbarProps) {
         }
     }
 
+    const handleClickSideNav = () => {
+        const screenWidth = window.innerWidth;
+
+        if(screenWidth <= 640)
+            handleClick();
+    }
+
     return(
         <div className="nav-bar">
             <ul id="toggleContent">
                 {tabs.map(item => 
-                <li key={item}><a href={"#"+item}>{item}</a></li>)}
+                <li key={item}><a href={"#"+item} onClick={handleClickSideNav}>{item}</a></li>)}
             </ul>
             <button className="small-nav-btn" onClick={handleClick}><i id="toggleIcon" className="fa-solid fa-bars"></i></button>         
         </div>
