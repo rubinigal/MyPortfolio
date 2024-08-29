@@ -34,6 +34,7 @@
     font-weight: bold;
     color: var(--color-orange);
     transition: transform 0.3s ease-out;
+    text-wrap: nowrap;
 }
   
 .btn:hover {

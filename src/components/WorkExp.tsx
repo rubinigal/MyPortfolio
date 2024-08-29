@@ -18,8 +18,8 @@ function WorkExp(sectionId: {id: string}) {
             description: [
                 "Designing and developing tailored websites and applications for small businesses.",
                 "Creating scalable, responsive, and user-friendly solutions.",
-                "Enhancing online presence, driving customer engagement by up to 50%.",
-                "Increasing businesses revenue by as much as 30%.",
+                //"Enhancing online presence, driving customer engagement by up to 50%.",
+                //"Increasing businesses revenue by as much as 30%.",
                 "Leveraging the latest technologies and best practices to deliver high-quality products.",
                 "Attracting more customers and improving user experience."
             ]
