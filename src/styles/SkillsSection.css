@@ -1,12 +1,13 @@
 .skill-section {
     width: 100%;
-    background-color: var(--color-silver);
+    background-color: var(--color-black2);
     padding: 50px;
 }
 
 .skill-section h2 {
     font-size: 4rem;
     text-align: center;
+    color: var(--color-white);
     text-shadow: 2px 2px 1px var(--color-black);
     padding: 20px;
     border-bottom: 2px solid var(--color-orange);
@@ -29,7 +30,7 @@
 }
 
 .skills-box p {
-    color: black;
+    color: var(--color-white);
 }
 
 .skill-card {
